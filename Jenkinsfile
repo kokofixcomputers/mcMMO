@@ -2,9 +2,9 @@ pipeline {
 	agent any
 
 	tools {
-		jdk 'jdk17'
+		//jdk 'jdk17'
 		// If you configured Maven as a Jenkins tool, add:
-		// maven 'Maven3'
+		maven 'Maven3'
 	}
 
 	options {
